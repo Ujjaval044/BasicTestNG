@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BasicTest.timer_screenshot">
+      <class name="BasicTest.JRE_forgetPassword">
         <methods>
-          <include name="screenshot"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- BasicTest.timer_screenshot -->
+      </class> <!-- BasicTest.JRE_forgetPassword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

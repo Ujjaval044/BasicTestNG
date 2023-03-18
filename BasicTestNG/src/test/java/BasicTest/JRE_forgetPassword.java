@@ -5,13 +5,14 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class JRE_forgetPassword {
 	@Test
 	public void f() throws Exception {
 		WebDriver driver;
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 
 		driver.get("https://www.justrechargeit.com/SignIn.aspx");
